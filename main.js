@@ -129,7 +129,7 @@ function stageStart(){
    
     cam = new camera(player);
 
-    gameObjects.push(new boss1(1, {x:0,y:-500}))
+    //gameObjects.push(new boss1(1, {x:0,y:-500}))
 
     window.requestAnimationFrame(frame);
 }
